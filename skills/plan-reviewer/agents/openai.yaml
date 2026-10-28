@@ -1,0 +1,7 @@
+interface:
+  display_name: "Plan Reviewer"
+  short_description: "多视角审查既有方案，输出证据报告与完整修订建议版"
+  default_prompt: "Use $plan-reviewer to review the plan in this conversation, then provide both an evidence-backed report and a complete revised-plan proposal."
+
+policy:
+  allow_implicit_invocation: false
